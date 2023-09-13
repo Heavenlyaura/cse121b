@@ -6,7 +6,7 @@
 
 let fullName = 'Goodness Arinze Okafor';
 let currentYear = 2023;
-let ProfilePicture = "../images/Photo-of-me.jpg";
+let ProfilePicture = "images/Photo-of-me.jpg";
 
 /* Step 3 - Element Variables */
 
