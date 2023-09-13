@@ -15,8 +15,6 @@ const yearElement = document.querySelector("#year")
 const foodElement = document.getElementById('food')
 const imageElement = document.getElementById("my-photo")
 
-
-
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = `<strong>${fullName}</strong>`;
@@ -26,17 +24,14 @@ imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 
-
-
-let favouriteFoods = ['rice', ' bread', ' noddles', ' yam'];
-let favouriteFood = ' beans';
-
-favouriteFoods.push(favouriteFood);
-
+let favouriteFoods = ['rice', ' bread', ' noddles', ' yam', 'pasta', 'custard', 'potatoes'];
 foodElement.innerHTML += `<br>${favouriteFoods}`;
-
+let favouriteFood = ' beans';
+favouriteFoods.push(favouriteFood);
+foodElement.innerHTML += `<br>${favouriteFoods}`;
 favouriteFoods.splice(0,1);
-
+foodElement.innerHTML += `<br>${favouriteFoods}`;
+favouriteFoods.pop();
 foodElement.innerHTML += `<br>${favouriteFoods}`;
 
 
