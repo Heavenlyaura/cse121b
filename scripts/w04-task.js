@@ -15,19 +15,19 @@ const myProfile = {
 /* Populate Profile Object with placesLive objects */
 
 myProfile.placesLived.push({
-    place : 'abuja',
+    place : 'Abuja',
     length : '18 years'
 }, {
-    place: 'niger',
+    place: 'Niger',
     length : '3 years'
 }, {
-    place : 'port harcourt',
+    place : 'Port harcourt',
     length : '6 months'
 }, {
-    place : 'uyo',
+    place : 'Uyo',
     length : '1 year 3 months'
 }, {
-    place : 'calabar',
+    place : 'Calabar',
     length : '7 months'
 }
 )
@@ -56,7 +56,7 @@ myProfile.favFood.forEach(food => {
 
 /* Hobbies List */
 myProfile.hobbies.forEach(hobby => {
-    let li = document.createElement('li');
+    let li = document.createElement('li');  
     li.textContent = hobby;
     document.querySelector('#hobbies').appendChild(li)
 });
