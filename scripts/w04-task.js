@@ -4,7 +4,7 @@
 
 const myProfile = {
     name : 'Goodness Okafor',
-    photo : 'images/photo-of-me.jpg',
+    photo : 'images/Photo-of-me.jpg',
     favFood : ['rice', 'garri', 'indomie', 'pawpaw', 'spaghetti', 'bread'],
     hobbies : ['basketball', 'video games', 'chess'],
     placesLived : []
