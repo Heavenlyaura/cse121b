@@ -34,6 +34,7 @@ const getTemples = async () => {
     results.forEach(temple => {
         templeList.push(temple)
     });
+    displayTemples(results) 
 
 }
 
