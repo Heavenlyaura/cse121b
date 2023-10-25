@@ -137,30 +137,30 @@ function changeBackground(weatherCondition) {
             body.style.backgroundImage = 'url("clear-sky.jpg")';
             break;
         case 'rain':
-            body.style.backgroundImage = 'url("../images/raining.jpg")';
+            body.style.backgroundImage = 'url("/images/raining.jpg")';
             break;
         case 'dust':
-            body.style.backgroundImage = 'url("../images/dust.jpg")';
+            body.style.backgroundImage = 'url("/images/dust.jpg")';
             break;
         case 'smoke':
-            body.style.backgroundImage = 'url("../images/smoke.jpg")';
+            body.style.backgroundImage = 'url("/images/smoke.jpg")';
             break;
         case 'clouds':
-            body.style.backgroundImage = 'url("../images/clouds.jpg")';
+            body.style.backgroundImage = 'url("/images/clouds.jpg")';
             break;
         case 'snow':
-            body.style.backgroundImage = 'url("../images/snow.jpg")';
+            body.style.backgroundImage = 'url("/images/snow.jpg")';
             break;
         case 'mist':
-            body.style.backgroundImage = 'url("../images/mist.jpg")';
+            body.style.backgroundImage = 'url("/images/mist.jpg")';
             break;
         case 'thunderstorm':
-            body.style.backgroundImage = 'url("../images/thunderstorm.jpg")';
+            body.style.backgroundImage = 'url("/images/thunderstorm.jpg")';
             break;
 
         // Add more cases for other weather conditions.
         default:
-            body.style.backgroundImage = 'url("../images/cover.jpg")';
+            body.style.backgroundImage = 'url("/images/cover.jpg")';
             break;
     }
 }
